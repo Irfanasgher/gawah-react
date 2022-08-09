@@ -1,0 +1,56 @@
+
+/*.profile-main {*/
+/*	margin-top: 80px;*/
+/*	margin-bottom: 50px;*/
+/*}*/
+/*.profile-main h1 {*/
+/*	color: white !important;*/
+/*	font-family: "Open Sans", Arial, sans-serif;*/
+/*}*/
+/*.profile-main .description p {*/
+/*	margin-left: 5%;*/
+/*	width: 90%;*/
+/*	font-size: 16px;*/
+/*	margin-top: 20px;*/
+/*	color: #e6e6e6;*/
+/*	text-align: justify;*/
+/*	!* font-family: 'Dubai'; *!*/
+/*	font-family: "Open Sans", Arial, sans-serif;*/
+/*}*/
+/*.profile-main .img {*/
+/*	margin-top: 30px;*/
+/*}*/
+/*.profile-main .img img {*/
+/*	object-fit: contain;*/
+/*	!* max-width: 100%; *!*/
+/*	max-width: 100%;*/
+/*}*/
+/*.col-md-4 {*/
+/*	padding: 0;*/
+/*}*/
+#nav {
+	background-color: rgba(0, 0, 0, 0.6);
+	height: 100px;
+	display: flex;
+	justify-content: center;
+}
+#nav a {
+	display: flex;
+	text-decoration: none !important;
+}
+#nav i {
+	color: rgba(255, 255, 255, 0.7);
+	font-size: 40px;
+	position: absolute;
+	left: 50px;
+	top: 30px;
+	transition: all 0.5s ease-in-out;
+}
+#nav i:hover {
+	color: white;
+}
+
+#nav img {
+	object-fit: contain;
+	max-width: 60px;
+}

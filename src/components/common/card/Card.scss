@@ -1,0 +1,57 @@
+#card{
+  .card-container{
+    width: 100%;
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;
+
+    .card.first-card{
+      margin: 0!important;
+      width: 100%!important;
+      min-width: 90%;
+
+      .card-contents.card-front{
+        background-color: #555;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        h4{
+          width: 100%;
+          font-size: 24px;
+          color: #ddd !important;
+          font-family: 'Oswald', sans-serif;
+        }
+        p{
+          width: 100%;
+          font-size: 14px;
+          color: #ddd !important;
+          font-family: 'Oswald', sans-serif;
+        }
+      }
+      .card-contents.card-back{
+        background: #555;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        .card-depth{
+          position: relative;
+          top: -60px;
+
+          h4{
+            width: 100%;
+            font-size: 24px;
+            color: #ddd !important;
+            font-family: 'Oswald', sans-serif;
+          }
+          p{
+            width: 100%;
+            font-size: 14px;
+            color: #ddd !important;
+            font-family: 'Oswald', sans-serif;
+          }
+        }
+      }
+    }
+  }
+}
